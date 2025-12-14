@@ -6,7 +6,9 @@ from antenna_plot import AntennaPlot
 
 
 class AntennaGUI:
+ 
 
+    #! Member 1
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("Antenna Characteristics Calculator")
@@ -76,6 +78,7 @@ class AntennaGUI:
 
         return mapping[name](f, Rr, Rl)
 
+    #! Member 2
     def calculate(self):
         try:
             f = float(self.freq_entry.get())
