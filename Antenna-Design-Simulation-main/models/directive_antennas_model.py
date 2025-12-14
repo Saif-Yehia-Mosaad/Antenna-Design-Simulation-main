@@ -1,7 +1,9 @@
 from antenna_base import Antenna
 import numpy as np
+
 #*directive
-#! Member 4
+
+#! Saif 
 class Yagi(Antenna):
     def length(self):
         return self.wavelength() / 2

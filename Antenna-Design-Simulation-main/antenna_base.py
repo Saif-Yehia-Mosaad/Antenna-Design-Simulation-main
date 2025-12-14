@@ -1,7 +1,8 @@
 from abc import ABC, abstractmethod
 import math
 
-#! Member 6
+#! Ahmed 
+
 class Antenna(ABC):
 
     def __init__(self, frequency, Rr, RL):

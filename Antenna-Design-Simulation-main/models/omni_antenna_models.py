@@ -3,7 +3,7 @@ from antenna_base import Antenna
 
 #*  Omni / Wire  
 
-#! Member 5
+#! ismael  
 class Dipole(Antenna):
 
     def length(self):
