@@ -1,7 +1,7 @@
 from antenna_input import AntennaInput
 from antenna_plot import AntennaPlot
 
-
+#! Member 7
 system = AntennaInput()
 antenna = system.get_antenna()
 
@@ -12,14 +12,15 @@ print("Gain:", round(antenna.gain_db(), 2), "dB")
 print("Directivity:", antenna.directivity())
 print("Efficiency:", round(antenna.efficiency()*100, 2), "%")
 
-#! Not working
-# print("Beamwidth:", antenna.beamwidth(), "degrees")
 
 plotter = AntennaPlot()
 plotter.plot(antenna)
 
-# Enter frequency (Hz): 100000000   # 100 MHz
-# Enter radiation resistance Rr: 50
-# Enter loss resistance RL: 5
-# Enter number: 2   # D100ipole
-#
+
+
+
+#*Ex: Inputs
+#  frequency : 100000000 
+#  Rr: 50
+#  RL: 5
+#  type: 2 ===> Dipole

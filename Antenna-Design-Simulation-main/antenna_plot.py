@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+#! Member 7
 class AntennaPlot:
     def plot(self, antenna):
         theta = np.linspace(0, 2*np.pi, 360)

@@ -1,9 +1,9 @@
 import numpy as np
 from antenna_base import Antenna
 
-# -------- Omni / Wire Antennas --------
+#*  Omni / Wire  
 
-
+#! Member 5
 class Dipole(Antenna):
 
     def length(self):

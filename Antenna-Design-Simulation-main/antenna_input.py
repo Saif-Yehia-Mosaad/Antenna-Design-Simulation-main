@@ -1,7 +1,8 @@
 import models.omni_antenna_models as omni
 import models.directive_antennas_model as directive
 
-
+    
+#! Member 3
 class AntennaInput:
 
     def get_antenna(self):
